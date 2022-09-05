@@ -107,7 +107,7 @@ section {
 .container {
   margin: 0 auto;
   width: 80%;
-  background-color: #23272a;
+  /* background-color: #23272a; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -116,11 +116,11 @@ section {
 
 .container .img {
   min-height: 300px;
-  background-color: aqua;
+  /* background-color: aqua; */
   flex-grow: 1;
 }
 .container .txt {
-  background-color: white;
+  /* background-color: white; */
   min-height: 300px;
 }
 
@@ -136,7 +136,7 @@ p {
 }
 
 .odd {
-  background-color: #ccc4c4;
+  background-color: #f6f6f6;
 }
 
 .reverse {
@@ -185,31 +185,60 @@ footer {
 }
 
 #footer-menu {
-  height: 30vh;
   display: flex;
   flex-direction: row;
-
+  justify-content: space-between;
   margin: 0 auto;
   width: 80%;
   padding: 0.5em 0;
 }
 .footer-section {
-  padding: 0.5em 0;
+  padding: 0.5em 1em;
   min-height: 300px;
-  background-color: white;
-  flex-grow: 0;
-  border: 1px dashed black;
+  width: 100%;
 }
 
 #first {
-  flex-grow: 2;
-  background-color: rosybrown;
+  flex-grow: 1;
+}
+
+#language img {
+  width: 20px;
+}
+#language span {
+  color: white;
+}
+#social i {
+  color: white;
+  padding: 0.5em 1em 0 0em;
+}
+
+.footer-section h4 {
+  color: #728ada;
+  font-size: 2rem;
+}
+
+h5 {
+  color: #728ada;
+}
+
+.submenu li {
+  font-size: 0.9rem;
+  padding: 0.7em 0;
 }
 
 hr {
   height: 2px;
   background-color: #255ee9;
   border: none;
+}
+
+.footer-section ul {
+  list-style: none;
+  color: white;
+
+  text-decoration: none;
+  list-style-position: outside;
 }
 
 #footer-banner {
