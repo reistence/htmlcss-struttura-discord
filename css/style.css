@@ -1,0 +1,68 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+/* PALETTE */
+/* celeste #255ee9
+nero #23272a
+grigio #f6f6f6 */
+
+/* HEADER */
+header {
+  height: 40vh;
+  background-color: #255ee9;
+  color: white;
+}
+
+.flex-nav {
+  padding: 0.4em;
+  display: flex;
+  height: 5vh;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 80%;
+}
+
+#logo {
+  height: 100%;
+}
+#menu ul {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 100%;
+  list-style: none;
+}
+#menu ul li {
+  padding: 0.4em 1em;
+}
+
+#login {
+  color: #23272a;
+  background-color: white;
+  border-radius: 10px;
+  /* padding: 0.5em; */
+}
+
+/* JUMBO */
+#jumbo {
+  background-color: rgb(2, 2, 12);
+  height: 80%;
+  margin: 1.6em 0;
+  padding: 2em 0;
+}
+#jumbo-txt {
+  width: 60%;
+  height: 100%;
+  background-color: rosybrown;
+  margin: 0.5em auto;
+  text-align: center;
+  padding: 4em 0;
+}
