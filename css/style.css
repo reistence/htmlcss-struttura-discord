@@ -16,13 +16,15 @@ grigio #f6f6f6 */
 
 /* HEADER */
 header {
-  height: 40vh;
   background-color: #255ee9;
   color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../img/jumbo.png");
 }
 
 .flex-nav {
-  padding: 0.4em;
+  padding: 1em 0;
   display: flex;
   height: 5vh;
   justify-content: space-between;
@@ -30,9 +32,6 @@ header {
   width: 80%;
 }
 
-#logo {
-  height: 100%;
-}
 #menu ul {
   display: flex;
   justify-content: space-around;
@@ -47,32 +46,62 @@ header {
 #login {
   color: #23272a;
   background-color: white;
-  border-radius: 10px;
-  padding: 0.1em 0.5em;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  padding: 0.3em 0.9em;
   vertical-align: middle;
   justify-content: center;
+  border: none;
 }
 
 /* JUMBO */
 #jumbo {
-  background-color: rgb(2, 2, 12);
-  height: 80%;
+  /* height: 80%; */
   margin: 1.6em 0;
   padding: 2em 0;
 }
 #jumbo-txt {
   width: 60%;
   height: 100%;
-  background-color: rosybrown;
   margin: 0.5em auto;
   text-align: center;
   padding: 4em 0;
 }
+
+#jumbo-p {
+  margin-top: 0.3em;
+  color: white;
+}
+#jumbo-h1 {
+  color: white;
+  font-size: 3rem;
+  padding: 00.5em 0;
+}
+#mac-download {
+  margin: 1em 0.3em;
+  background-color: white;
+  border-radius: 20px;
+  padding: 1em;
+  border: none;
+  vertical-align: middle;
+  justify-content: center;
+}
+#browser-version {
+  margin: 1em 0.3em;
+  background-color: #23272a;
+  color: white;
+  border-radius: 20px;
+  padding: 1em;
+  border: none;
+  vertical-align: middle;
+  justify-content: center;
+}
+
 /* MAIN */
 /* SECTION */
 section {
   background-color: white;
-  height: 400px;
+  /* height: 400px; */
   padding-top: 1em;
 }
 .container {
@@ -95,12 +124,59 @@ section {
   min-height: 300px;
 }
 
+h2 {
+  font-size: 3rem;
+  padding: 0.5em 0;
+}
+
+p {
+  font-size: 1.5rem;
+  padding: 0.3em;
+  justify-content: left;
+}
+
 .odd {
   background-color: #ccc4c4;
 }
 
 .reverse {
   flex-direction: row-reverse;
+}
+
+.vertical {
+  flex-direction: column;
+}
+
+.vertical h2,
+.vertical p {
+  text-align: center;
+}
+
+#download-section {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  padding: 4em 0;
+}
+
+h3 {
+  font-size: 3em;
+  background-image: url("../img/stars.svg");
+  background-size: contain;
+}
+
+#download {
+  margin: 1em;
+  border: none;
+  color: white;
+  background-color: #728ada;
+  font-size: 1.6rem;
+  border-radius: 20px;
+  padding: 0.5em 1em;
+  vertical-align: middle;
+  line-height: 100%;
+  justify-content: center;
+  border: none;
 }
 
 /* FOOTER */
@@ -141,15 +217,16 @@ hr {
   display: flex;
   justify-content: space-between;
   width: 80%;
-  padding: 00.5em 0;
+  padding: 1em 0;
 }
 
 #signin {
   color: white;
   background-color: #255ee9;
-  border-radius: 10px;
-  padding: 0.1em 0.5em;
+  border-radius: 20px;
+  padding: 0.1em 0.9em;
   vertical-align: middle;
   line-height: 100%;
   justify-content: center;
+  border: none;
 }
