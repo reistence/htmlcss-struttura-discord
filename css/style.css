@@ -24,9 +24,9 @@ header {
 }
 
 .flex-nav {
-  padding: 1em 0;
+  padding: 2em 0;
   display: flex;
-  height: 5vh;
+  /* height: 5vh; */
   justify-content: space-between;
   margin: 0 auto;
   width: 80%;
@@ -46,12 +46,10 @@ header {
 #login {
   color: #23272a;
   background-color: white;
-  border-radius: 20px;
-  font-size: 0.9rem;
-  padding: 0.3em 0.9em;
-  vertical-align: middle;
-  justify-content: center;
   border: none;
+  padding: 1em 1.5em;
+  border-radius: 20px;
+  line-height: ;
 }
 
 /* JUMBO */
@@ -81,7 +79,8 @@ header {
   margin: 1em 0.3em;
   background-color: white;
   border-radius: 20px;
-  padding: 1em;
+  padding: 1em 1.5em;
+  font-size: 1rem;
   border: none;
   vertical-align: middle;
   justify-content: center;
@@ -91,7 +90,8 @@ header {
   background-color: #23272a;
   color: white;
   border-radius: 20px;
-  padding: 1em;
+  padding: 1em 1.5em;
+  font-size: 1rem;
   border: none;
   vertical-align: middle;
   justify-content: center;
@@ -246,7 +246,7 @@ hr {
   display: flex;
   justify-content: space-between;
   width: 80%;
-  padding: 1em 0;
+  padding: 1.5em 0 3em 0;
 }
 
 #signin {
