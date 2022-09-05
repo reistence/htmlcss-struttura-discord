@@ -207,15 +207,17 @@ footer {
 }
 #language span {
   color: white;
+  padding: 0.5em;
 }
 #social i {
   color: white;
-  padding: 0.5em 1em 0 0em;
+  padding: 0em 1em 0em 0em;
 }
 
 .footer-section h4 {
   color: #728ada;
   font-size: 2rem;
+  margin-bottom: 0.5em;
 }
 
 h5 {
