@@ -49,7 +49,6 @@ header {
   border: none;
   padding: 1em 1.5em;
   border-radius: 20px;
-  line-height: ;
 }
 
 /* JUMBO */
@@ -98,6 +97,14 @@ header {
 }
 
 /* MAIN */
+/* WAVES */
+#wave-1hkxOo {
+  margin-top: -1em;
+}
+#upside {
+  background-color: #f6f6f6;
+}
+
 /* SECTION */
 section {
   background-color: white;
@@ -222,6 +229,7 @@ footer {
 
 h5 {
   color: #728ada;
+  font-size: 1.3rem;
 }
 
 .submenu li {
